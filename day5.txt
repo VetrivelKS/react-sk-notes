@@ -1,0 +1,20 @@
+redux
+-1 store-single source of truth
+-state is readonly
+-redux state will create a copy of state  --  Object.assign({},state,data) - this is reducer action
+
+
+container(functionalities) and presentational(UI) components
+
+reducer is like dispatcher
+
+
+combineReducers
+
+
+
+-----middleware- for async operations
+import 
+
+thunk-to create mw
+applyMiddlware(thunk)(createStore)(reducer);

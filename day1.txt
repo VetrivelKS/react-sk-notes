@@ -1,0 +1,85 @@
+scripting : no need ofcompilation,interprted by browser
+
+DOM = browser view tree structure
+
+MVC
+c-business logic
+model mutation-
+
+library vs framework= architecture
+
+angular-> MVW-whatever
+
+1)Server Refresh
+adv = no need to maintain state
+disadv = reloads evertytime
+
+2)first generation framworks Ext.js,backbone js
+adv = well defined datamodel
+disadv = synchronisation between model n view has to be done by dev (during a click or something)
+
+3)Knockout js,Ember js
+data binding concept-sync problem is solved
+disadv - framework specific API's (framework specific functions .set("sdfsd","sds"))
+
+4)Angular JS = 1.x
+threecycles-watch apply digest -
+disadv-dirty checking-traverse entire dom
+
+5) react js
+components(introduced in phantom and polymer JS,react modified its concept)
+
+
+
+--------------------------------------------
+
+ReactJS - JS Library
+concerned on COMPONENTS
+
+sessionstorage-close tab and clears
+localstorage-dev should call clear method
+cookie-KB,storage(not site specific)-5mb
+
+----------------
+FLUX archi
+REDUX archi
+
+
+component are inside Virtual DOMS
+Difference algorithm in react
+old and new Virtual DOM-> sends diff to the Original DOM
+
+
+Virtual DOM-> Component
+Actual DOM-> original divs
+
+1)COmponent based
+2)easily SEO
+3)ISOMORPHIC behaviour = same code for server and client side rendering
+4)FOUC=flash of unstyled content - client side rendering delay
+	for server side dom rendering,original dom will not be available-so re-rendering is reqd
+5)uni directional dataflow
+	in react single directionsal -  M->V
+	compnents to view
+	fb introduced FLUX ARCHI for uni directional dataflow
+	Redux is an another uni directional dataflow
+6)Declarative
+https://stackoverflow.com/questions/33655534/difference-between-declarative-and-imperative-in-react-js
+ 
+in angular - two way : M<->V
+makes Data updation unpredicatable
+
+
+JSX-JS Syntax Extension
+Babel - transpiler-A Read–Eval–Print Loop (REPL) - ES6->reactjs
+
+
+
+
+
+earlier - some packages to be installed locally,some in globally
+Current version -allpackages locally
+
+
+webpack- module bundler of all resources into single js file
+

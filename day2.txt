@@ -1,0 +1,45 @@
+props in constructor - for particular compnent this.props
+send it to "parent component" - super(props)
+
+
+props = plain JS object
+to pass data from parent to child
+props-immutable-to pass the data
+state-mutable-tom maintain state
+"key" attribute should be unique in loops..It is mandatory
+
+ES6 = explicit binding is required
+
+best practice to maintain all components as stateless,maintain state in parent
+stateless componenets only has props,(no state)
+
+
+this.props.children
+
+
+render method is purefunction
+we cant get data inside renderfunction of a component
+so use lifecycle methods'
+
+i)mounting phase
+	-componentWillMount()- can be invoked both on client and server,executed only once
+		*rendering happens*				
+	-componentDidMount()-invoked only in client side,after initial rendering (getdata and setState)
+
+ii)updating phase
+	-componentWillRecieveProps(newProps)    -invoked whenever new prop is passed
+	-shouldComponentUpdate(newProps,nextState)    -returns a boolean value (true means component will be re-rendered)
+		*if returns 'true'*
+	-componentWillUpdate()
+		*rendering happens*
+	-componentDidUpdate()
+
+iii)unmounting phase-for cleanUp of browser memory,
+	-unmountComponentAtNode()
+	
+	
+AJAX:
+componentDidMount best place
+
+
+

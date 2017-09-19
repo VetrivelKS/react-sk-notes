@@ -1,0 +1,9 @@
+npm init
+npm install react react-dom babel-core babel-loader babel-preset-react babel-preset-es2015 webpack webpack-dev-server --save
+
+
+npm install react-router-dom --save 
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+npm install react-bootstrap --save
+npm install flux react-flux --save

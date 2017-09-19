@@ -1,0 +1,26 @@
+in html->can maintain state
+in reactjs-> 
+Warning: Failed form propType: You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`. Check the render method of `AddDefect`.
+
+if state is used in an element, we should handle it (values wont change) ===> 
+this is called controlled component
+
+uncontrolledcomponent->Ref keyword/event.target
+controlled->this.state.vari  + onChange
+
+--routing
+npm install react-router-dom --save  // new version
+npm install react-router --save//old version
+
+import {BrowserRouter as Router,Route,Link} from 'react-router-dom';
+
+
+"exact" keyword
+
+<Route path="/App/:role" component={App}/><!-- /:  dynamic routing-->
+
+
+-reactBootstrap button
+	import {Button} from react-bootstrap
+	bsStyle="primary"
+

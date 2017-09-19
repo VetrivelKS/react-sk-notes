@@ -1,0 +1,42 @@
+remove webpack server and use backendjs to startexpress server
+ 
+ context should be specified to use it in server (else it will give the local disk)
+ 
+ if context is set
+ 
+ __dirname will give "c://vetri/blah/balaj/reactWorkspace" where app.js is present (absolute path)
+ 
+ 
+ 
+else
+__dirname will give c:// alone
+
+Object.assign({},common,serverConfig)
+//(returnObj,obj1,obj2) = output will be obj1+obj2
+
+
+
+EXPRESSJS is a middleware between request and response
+\
+npm install webpack -g
+
+-g for global installation
+
+
+frontend.js - from main.js
+back -from app.js
+
+
+two way - code will become unpredicatable
+Uni directional (component to view)
+flux-(view to component) dispatcher.js(hub for all actions)
+
+npm install flux react-flux --save
+
+
+react doesnt take care of state
+so we have to do it
+so only Redux
+
+
+inside componentDidMount, addChangeListener
