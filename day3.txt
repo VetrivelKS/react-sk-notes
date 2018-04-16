@@ -11,7 +11,7 @@ controlled->this.state.vari  + onChange
 --routing
 npm install react-router-dom --save  // new version
 npm install react-router --save//old version
-
+ 
 import {BrowserRouter as Router,Route,Link} from 'react-router-dom';
 
 
